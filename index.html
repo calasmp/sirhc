@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sir Hardcore — Minecraft Hardcore Roleplay Indonesia</title>
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container container">
+      <a href="#home" class="nav-brand">
+        <div class="brand-logo-container">
+          <img src="img/logo.png" alt="Sir Hardcore Logo" class="brand-logo-img" />
+          <span class="brand-name">SIR HARDCORE</span>
+        </div>
+      </a>
+      
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#register" class="nav-link">Pendaftaran</a></li>
+          <li><a href="#rules" class="nav-link">Aturan</a></li>
+          <li><a href="#membership" class="nav-link">Donations</a></li>
+          <li><a href="#media" class="nav-link">Galeri</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="server-badge" id="navIpBtn" title="Klik untuk menyalin IP">
+          <span class="status-dot pulsing"></span>
+          <span class="badge-text">sirhc.my.id:12345</span>
+        </div>
+        <a href="#register" class="btn-nav">Gabung</a>
+        <button class="hamburger" id="hamburger" aria-label="Buka Menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="hero-container container">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <span class="tag-bullet"></span> HARDCORE ROLEPLAY INDONESIA
+          </div>
+          <h1 class="hero-title">Setiap nyawa<br />memiliki cerita.</h1>
+          <p class="hero-desc">
+            Sir Hardcore adalah server Minecraft Hardcore Roleplay Indonesia yang terinspirasi dari kerasnya konsep Brutal Hardcore. Kami mengintegrasikan sistem ekonomi fraksi dinamis, mekanika persenjataan kustom, serta berinovasi melahirkan fitur-fitur baru untuk menciptakan ekosistem roleplay yang imersif dan menantang.
+          </p>
+          
+          <div class="hero-actions-container">
+            <div class="hero-actions">
+              <a href="#register" class="btn-primary">
+                Daftar Sekarang <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <a href="#membership" class="btn-secondary">Dukung Server</a>
+            </div>
+
+            <div class="ip-widget" id="heroIpWidget" title="Klik untuk menyalin IP">
+              <span class="ip-widget-label">SERVER IP (JAVA EDITION)</span>
+              <div class="ip-widget-row">
+                <code class="ip-widget-code">sirhc.my.id<span class="ip-port-color">:12345</span></code>
+                <i class="fa-regular fa-copy ip-widget-copy"></i>
+              </div>
+            </div>
+          </div>
+          
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-value">1,000+</span>
+              <span class="stat-label">Total Pendaftar</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">20:00</span>
+              <span class="stat-label">WIB Roleplay</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">Java Only</span>
+              <span class="stat-label">1.20-1.21.11</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="hero-visual">
+          <div class="hero-img-card">
+            <video autoplay muted loop playsinline class="hero-video-media">
+              <source src="img/hero-video.mp4" type="video/mp4">
+              <img src="img/hero-visual.jpg" alt="Backup Image jika video gagal dimuat" />
+            </video>
+            <div class="hero-img-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PENDAFTARAN SECTION ===== -->
+    <section class="section register-section" id="register">
+      <div class="container">
+        <div class="editorial-grid">
+          <div class="grid-left">
+            <span class="section-label">ALUR PENDAFTARAN</span>
+            <h2 class="section-title">Gabung Komunitas</h2>
+            <p class="body-text" style="margin-top: 1rem;">
+              Ikuti prosedur di samping untuk mendaftarkan karakter Anda. Harap isi formulir secara jujur dan matang. Pendaftaran akan ditinjau langsung oleh staf administrasi Sir Hardcore.
+            </p>
+            <div class="reg-steps">
+              <div class="step-card">
+                <span class="step-badge">1</span>
+                <p>Klik tombol <strong>Salin Formulir</strong> pada widget di samping.</p>
+              </div>
+              <div class="step-card">
+                <span class="step-badge">2</span>
+                <p>Gabung ke <strong>Grup WhatsApp Pendaftaran</strong> melalui tombol di bawah.</p>
+              </div>
+              <div class="step-card">
+                <span class="step-badge">3</span>
+                <p>Tempel (*paste*) formulir, isi dengan lengkap, lalu kirim ke grup chat tersebut.</p>
+              </div>
+            </div>
+            <a href="https://chat.whatsapp.com/CfS0kiBsdQGCut6y8cFKNK" target="_blank" class="btn-primary-accent" style="margin-top: 1.5rem; width: auto; display: inline-flex;">
+              <i class="fab fa-whatsapp"></i> Gabung Grup WhatsApp Pendaftaran
+            </a>
+          </div>
+          
+          <div class="grid-right">
+            <div class="form-widget">
+              <div class="form-widget-header">
+                <span class="form-title"><i class="fa-solid fa-file-signature"></i> FORMULIR PENDAFTARAN</span>
+                <button class="btn-copy-form" id="copyFormBtn"><i class="fa-regular fa-copy"></i> Salin Formulir</button>
+              </div>
+              <pre class="form-content-preview" id="formTemplateText">
+*PENDAFTARAN SIR HARDCORE*
+Silakan isi formulir di bawah ini dengan jujur dan lengkap
+
+Nick Minecraft :
+Umur :
+Nama RP :
+
+Arti IC ( *JELASKAN* ) :
+Arti OOC ( *JELASKAN* ) :
+Arti RP ( *JELASKAN* ):
+
+Sudah berapa lama bermain RP :
+Menggunakan Voice Chat (Ya/Tidak) :
+
+Bersedia mengikuti seluruh aturan dan arahan Admin :
+Bersedia menerima konsekuensi (Ban/Warn) jika melanggar aturan :
+
+*MOHON DIJELASKAN IC, OOC, DAN RP. BUKAN KEPANJANGAN DARI ITU*
+*JIKALAU TETAP TIDAK DIJELASKAN AKAN DI TOLAK*
+
+⚠️ JANGAN LUPA BACA DESKRIPSI SEBELUM MENDAFTAR</pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RULES SECTION ===== -->
+    <section class="section rules-section" id="rules">
+      <div class="container">
+        <div class="section-header" style="margin-bottom: 3rem;">
+          <span class="section-label">ATURAN UTAMA</span>
+          <h2 class="section-title">Kode Etik</h2>
+          <p class="section-desc">Aturan mendasar untuk menjaga pengalaman bermain tetap imersif dan adil.</p>
+        </div>
+
+        <div class="rules-table-compact">
+          <div class="rule-col-item">
+            <span class="rule-index">01</span>
+            <div class="rule-detail">
+              <h3>Cheat &amp; Hack</h3>
+              <p>Modifikasi ilegal berakibat ban / ban permanen langsung.</p>
+            </div>
+          </div>
+          <div class="rule-col-item">
+            <span class="rule-index">02</span>
+            <div class="rule-detail">
+              <h3>Non-RP Grief &amp; Kill</h3>
+              <p>Merusak/membunuh tanpa alasan cerita dilarang keras.</p>
+            </div>
+          </div>
+          <div class="rule-col-item">
+            <span class="rule-index">03</span>
+            <div class="rule-detail">
+              <h3>Jadwal Roleplay</h3>
+              <p>Kekacauan saat event RP harian (20.00-22.30) dikenai sanksi kick.</p>
+            </div>
+          </div>
+          <div class="rule-col-item">
+            <span class="rule-index">04</span>
+            <div class="rule-detail">
+              <h3>Etika Chatting</h3>
+              <p>Kata kasar di luar RP/isu SARA berakibat mute permanen.</p>
+            </div>
+          </div>
+          <div class="rule-col-item">
+            <span class="rule-index">05</span>
+            <div class="rule-detail">
+              <h3>Eksploitasi &amp; Alt</h3>
+              <p>Menyalahgunakan bug atau multi-akun berakibat ban ip.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="rules-alert" style="margin-top: 2.5rem;">
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <p>Pelanggaran aturan di atas akan ditindak secara tegas melalui sanksi kick, ban sementara, atau ban permanen tanpa kompromi.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DONATIONS SECTION ===== -->
+    <section class="section membership-section" id="membership">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-label">DONATIONS</span>
+          <h2 class="section-title">Dukungan Komunitas</h2>
+          <p class="section-desc">Donasi Anda akan dialokasikan untuk pembiayaan hosting, promosi/endorse, maintenance bulanan server, dan pengembangan fitur orisinal.</p>
+        </div>
+
+        <h3 class="shop-subtitle">Ranks</h3>
+        <div class="ranks-grid">
+          <!-- Rank 0: Media (Free) -->
+          <div class="price-card">
+            <div class="card-top">
+              <img class="card-icon-img" src="https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21/assets/minecraft/textures/item/purple_dye.png" alt="Media Icon" />
+              <span class="tier-category">TIER GRATIS</span>
+              <h4 class="tier-title">Media</h4>
+              <div class="price-wrapper">
+                <span class="currency">Rp</span>
+                <span class="amount">0</span>
+              </div>
+            </div>
+            <div class="card-bottom">
+              <ul class="benefit-list">
+                <li><span class="bullet"></span> Syarat: 1k views / 300 total live viewers</li>
+                <li><span class="bullet"></span> Tag [Media] / [Streamer]</li>
+                <li><span class="bullet"></span> Prioritas Promosi Livestream</li>
+              </ul>
+              <a href="https://wa.me/6281229029537?text=Saya%20ingin%20mengajukan%20Rank%20Media" target="_blank" class="btn-tier">Ajukan Rank</a>
+            </div>
+          </div>
+
+          <!-- Rank 1: Tuan -->
+          <div class="price-card">
+            <div class="card-top">
+              <img class="card-icon-img" src="https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21/assets/minecraft/textures/item/copper_ingot.png" alt="Tuan Icon" />
+              <span class="tier-category">TIER 1</span>
+              <h4 class="tier-title">Tuan</h4>
+              <div class="price-wrapper">
+                <span class="currency">Rp</span>
+                <span class="amount">15K</span>
+              </div>
+            </div>
+            <div class="card-bottom">
+              <ul class="benefit-list">
+                <li><span class="bullet"></span> Kit Tuan (Claim 4 Hari)</li>
+                <li><span class="bullet"></span> Tag [Tuan] in-game</li>
+              </ul>
+              <a href="https://wa.me/6281229029537?text=Saya%20ingin%20membeli%20Rank%20Tuan" target="_blank" class="btn-tier">Dapatkan Rank</a>
+            </div>
+          </div>
+
+          <!-- Rank 2: Boss (Popular) -->
+          <div class="price-card popular">
+            <div class="popular-badge">POPULER</div>
+            <div class="card-top">
+              <img class="card-icon-img" src="https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png" alt="Boss Icon" />
+              <span class="tier-category accent">TIER 2</span>
+              <h4 class="tier-title">Boss</h4>
+              <div class="price-wrapper">
+                <span class="currency">Rp</span>
+                <span class="amount">25K</span>
+              </div>
+            </div>
+            <div class="card-bottom">
+              <ul class="benefit-list">
+                <li><span class="bullet accent"></span> Kit Boss</li>
+                <li><span class="bullet accent"></span> Tag [Boss] in-game</li>
+                <li><span class="bullet accent"></span> Antrean Prioritas</li>
+              </ul>
+              <a href="https://wa.me/6281229029537?text=Saya%20ingin%20membeli%20Rank%20Boss" target="_blank" class="btn-primary-accent">Dapatkan Rank</a>
+            </div>
+          </div>
+
+          <!-- Rank 3: BossBesar -->
+          <div class="price-card">
+            <div class="card-top">
+              <img class="card-icon-img" src="https://minecraft.wiki/images/Diamond_JE3_BE3.png" alt="BossBesar Icon" />
+              <span class="tier-category">TIER 3</span>
+              <h4 class="tier-title">BossBesar</h4>
+              <div class="price-wrapper">
+                <span class="currency">Rp</span>
+                <span class="amount">50K</span>
+              </div>
+            </div>
+            <div class="card-bottom">
+              <ul class="benefit-list">
+                <li><span class="bullet"></span> Kit BossBesar</li>
+                <li><span class="bullet"></span> Tag [BossBesar]</li>
+                <li><span class="bullet"></span> Slot Server Utama</li>
+              </ul>
+              <a href="https://wa.me/6281229029537?text=Saya%20ingin%20membeli%20Rank%20BossBesar" target="_blank" class="btn-tier">Dapatkan Rank</a>
+            </div>
+          </div>
+
+          <!-- Rank 4: FinalBoss -->
+          <div class="price-card">
+            <div class="card-top">
+              <img class="card-icon-img" src="https://minecraft.wiki/images/Amethyst_Shard_JE2_BE1.png" alt="FinalBoss Icon" />
+              <span class="tier-category">TIER 4</span>
+              <h4 class="tier-title">FinalBoss</h4>
+              <div class="price-wrapper">
+                <span class="currency">Rp</span>
+                <span class="amount">80K</span>
+              </div>
+            </div>
+            <div class="card-bottom">
+              <ul class="benefit-list">
+                <li><span class="bullet"></span> Kit FinalBoss</li>
+                <li><span class="bullet"></span> Tag [FinalBoss]</li>
+                <li><span class="bullet"></span> Antrean VIP Khusus</li>
+              </ul>
+              <a href="https://wa.me/6281229029537?text=Saya%20ingin%20membeli%20Rank%20FinalBoss" target="_blank" class="btn-tier">Dapatkan Rank</a>
+            </div>
+          </div>
+
+          <!-- Rank 5: SirHC+ (Ultimate) -->
+          <div class="price-card ultimate">
+            <div class="popular-badge gold">ULTIMATE</div>
+            <div class="card-top">
+              <img class="card-icon-img" src="https://minecraft.wiki/images/Nether_Star_JE2_BE1.png" alt="SirHC+ Icon" />
+              <span class="tier-category gold-text">TIER 5</span>
+              <h4 class="tier-title">SirHC+</h4>
+              <div class="price-wrapper">
+                <span class="currency">Rp</span>
+                <span class="amount">150K</span>
+              </div>
+            </div>
+            <div class="card-bottom">
+              <ul class="benefit-list">
+                <li><span class="bullet gold-bullet"></span> Kit SirHC+</li>
+                <li><span class="bullet gold-bullet"></span> Tag Utama [SirHC+]</li>
+                <li><span class="bullet gold-bullet"></span> Fitur Eksklusif</li>
+                <li><span class="bullet gold-bullet"></span> Chatroom Supporter</li>
+              </ul>
+              <a href="https://wa.me/6281229029537?text=Saya%20ingin%20membeli%20Rank%20SirHC+" target="_blank" class="btn-tier gold-btn">Dapatkan Rank</a>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="shop-subtitle">Items</h3>
+        <div class="items-grid">
+          <!-- Item 1: Mace -->
+          <div class="price-card">
+            <div class="card-top">
+              <img class="card-icon-img" src="img/mace.png" alt="Mace Icon" />
+              <span class="tier-category">PERALATAN</span>
+              <h4 class="tier-title">Mace</h4>
+              <div class="price-wrapper">
+                <span class="currency">Rp</span>
+                <span class="amount">10K</span>
+              </div>
+            </div>
+            <div class="card-bottom">
+              <ul class="benefit-list">
+                <li><span class="bullet"></span> Senjata Mace Standard</li>
+                <li><span class="bullet"></span> Efek Kerusakan Tinggi</li>
+              </ul>
+              <a href="https://wa.me/6281229029537?text=Saya%20ingin%20membeli%20Mace%20(Rp10k)" target="_blank" class="btn-tier">Pesan Item</a>
+            </div>
+          </div>
+
+          <!-- Item 2: Mace Full Enchant -->
+          <div class="price-card featured-item">
+            <div class="card-top">
+              <img class="card-icon-img" src="img/mace_enchant.gif" alt="Mace Full Enchant Icon" />
+              <span class="tier-category accent">SPESIAL ENCHANT</span>
+              <h4 class="tier-title">Mace Full Enchant</h4>
+              <div class="price-wrapper">
+                <span class="currency">Rp</span>
+                <span class="amount">20K</span>
+              </div>
+            </div>
+            <div class="card-bottom">
+              <ul class="benefit-list">
+                <li><span class="bullet accent"></span> Mace Tingkat Maksimal</li>
+                <li><span class="bullet accent"></span> Request: Breach / Density</li>
+              </ul>
+              <a href="https://wa.me/6281229029537?text=Saya%20ingin%20membeli%20Mace%20Full%20Enchant%20(Rp20k)" target="_blank" class="btn-primary-accent">Pesan Item</a>
+            </div>
+          </div>
+
+          <!-- Item 3: Spear Netherite Full Enchant -->
+          <div class="price-card">
+            <div class="card-top">
+              <img class="card-icon-img" src="img/spear.png" alt="Spear Netherite Full Enchant Icon" />
+              <span class="tier-category">PERALATAN</span>
+              <h4 class="tier-title">Spear Netherite Full Enchant</h4>
+              <div class="price-wrapper">
+                <span class="currency">Rp</span>
+                <span class="amount">10K</span>
+              </div>
+            </div>
+            <div class="card-bottom">
+              <ul class="benefit-list">
+                <li><span class="bullet"></span> Spear Netherite</li>
+                <li><span class="bullet"></span> Full Enchantment Bawaan</li>
+              </ul>
+              <a href="https://wa.me/6281229029537?text=Saya%20ingin%20membeli%20Spear%20Netherite%20Full%20Enchant%20(Rp10k)" target="_blank" class="btn-tier">Pesan Item</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MEDIA SECTION ===== -->
+    <section class="section media-section" id="media">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">DOKUMENTASI</span>
+          <h2 class="section-title">Galeri Aktivitas</h2>
+          <p class="section-desc">Screenshot dari momen momen penting di Sir Hardcore</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item large" onclick="openLightbox(0)">
+            <img src="img/img1.jpeg" alt="Spawn Area Castle" onerror="this.src='img/img1.png'" />
+            <div class="gallery-caption">
+              <h4>Peak Online Player</h4>
+              <p>Endfase SirHC F2</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(1)">
+            <img src="img/img2.jpeg" alt="Battle Royal PVP Arena" onerror="this.src='img/img2.png'" />
+            <div class="gallery-caption">
+              <h4>Roleplay Lab Dr.Panda</h4>
+              <p>Roleplay menuju endfase</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item" onclick="openLightbox(2)">
+            <img src="img/img3.jpeg" alt="Campfire Event Roleplay" onerror="this.src='img/img3.png'" />
+            <div class="gallery-caption">
+              <h4>Roleplay Rapat</h4>
+              <p>Meeting untuk membahas pembantaian team BMW</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item wide" onclick="openLightbox(3)">
+            <img src="img/img4.jpeg" alt="Warden Deep Dark Cave" onerror="this.src='img/img4.png'" />
+            <div class="gallery-caption">
+              <h4>Roleplay Lelang Umum</h4>
+              <p>Lelang umum di kastil yang berujung konflik</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo-container">
+            <img src="img/logo.png" alt="Sir Hardcore Logo" class="brand-logo-img" />
+            <span class="brand-name">SIR HARDCORE</span>
+          </div>
+          <p class="brand-tagline">Komunitas Minecraft Hardcore Roleplay di Indonesia. Tulis sejarah karakter Anda, jalani nasib Anda.</p>
+        </div>
+        
+        <div class="footer-links-group">
+          <div class="footer-col">
+            <h4>Alamat Server</h4>
+            <ul class="footer-info-list">
+              <li class="copyable" id="footerIp" title="Klik untuk menyalin IP">
+                <span class="label-dim">IP:</span> <span class="val">sirhc.my.id:12345</span>
+              </li>
+              <li><span class="label-dim">Versi:</span>1.20 - 1.21.11</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Komunitas</h4>
+            <ul>
+              <li><a href="https://chat.whatsapp.com/CfS0kiBsdQGCut6y8cFKNK" target="_blank">WhatsApp Group</a></li>
+              <li><a href="https://discord.gg/awHXyZPTk" target="_blank">Discord Server</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Jam Operasional RP</h4>
+            <ul>
+              <li>Senin – Minggu</li>
+              <li>20.00 – 22.30 WIB</li>
+              <li>Join komunitas untuk info lebih lanjut</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Sir Hardcore</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()" aria-label="Tutup Galeri"><i class="fas fa-times"></i></button>
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <img id="lightboxImg" src="" alt="Screenshot Halaman Penuh" />
+      <div id="lightboxCaption" class="lightbox-desc"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="copyToast">IP Server berhasil disalin ke clipboard!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
